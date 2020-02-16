@@ -9,7 +9,7 @@ jobs:
           PGHOST: localhost
           PGUSER: administrate-field-nested_has_many
           RAILS_ENV: test
-      - image: postgres:11
+      - image: postgres:10.1-alpine
         environment:
           POSTGRES_USER: administrate-field-nested_has_many
           POSTGRES_DB: administrate-field-nested_has_many_test
